@@ -1,0 +1,66 @@
+.navbar {
+  height: 60px;
+  background-color: #f72210;
+}
+
+.nav-row {
+  width: 100%;
+}
+
+main {
+  margin-top: 70px;
+}
+
+.news-week {
+  font-size: x-large;
+  color: white;
+}
+
+.news-logo {
+  width: 132px;
+  height: 20px;
+}
+
+.subscribe {
+  background-color: #ffe400;
+  border-radius: 24px;
+  border: none;
+  font-size: 13px;
+  color: black;
+  text-transform: uppercase;
+
+}
+
+.burger i {
+  height: 40px;
+  width: 30px;
+}
+.burger {
+  text-decoration: none;
+  border: none;
+  color: #333;
+  background-color: transparent;
+}
+
+.top-story-img {
+  width: 100%;
+  background-image: url("https://d.newsweek.com/en/full/1683824/israel-morocco-flags.jpg?w=591&h=364&f=5ccce66a677987f8c00830b0b9d8f9b5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 189px;
+}
+
+.ts-about-it {
+  font-size: 13px;
+}
+
+.vs-img img {
+  width: 100%;
+}
+
+.my-turn-word {
+  background-color: #c2d4d7;
+}
+
+
+
