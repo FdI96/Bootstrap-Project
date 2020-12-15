@@ -1,12 +1,22 @@
+body a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 .navbar {
-  height: 60px;
+  height: 50px;
   background-color: #f72210;
 }
 
+.navbar img {
+  height: 35px;
+}
 .nav-row {
   width: 100%;
 }
-
+.top-story-word {
+  background-color: rgba(255,255,255,.9);
+}
 main {
   margin-top: 70px;
 }
@@ -30,24 +40,19 @@ main {
   text-transform: uppercase;
 
 }
-
-.burger i {
-  height: 40px;
-  width: 30px;
+.featured-stories-img {
+  width: 100%;
 }
-.burger {
-  text-decoration: none;
-  border: none;
-  color: #333;
-  background-color: transparent;
-}
-
 .top-story-img {
   width: 100%;
   background-image: url("https://d.newsweek.com/en/full/1683824/israel-morocco-flags.jpg?w=591&h=364&f=5ccce66a677987f8c00830b0b9d8f9b5");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 189px;
+}
+
+.my-turn-card img {
+  width: 100%;
 }
 
 .ts-about-it {
@@ -62,5 +67,52 @@ main {
   background-color: #c2d4d7;
 }
 
+.litle-form {
+  height: 170px;
+}
 
+.litle-form-inside {
+  background-color: #f4f5f6;
+  width: 300px;
+  height: 150px;
+}
 
+.e-button {
+  background-color: #f61602;
+  width: 100%;
+}
+
+.alzheimer-card-img img {
+  width: 100%;
+}
+
+.in-the-magazine-card img {
+  width: 100%;
+}
+
+.smallest-text {
+  font-size: 12px;
+}
+
+.editors-pick-word {
+  background-color: rgba(255,255,255,.9);
+}
+
+.right-sub {
+  z-index: 5;
+  position: relative;
+  right: 80px;
+  top: 20px;
+}
+
+.inside-subscribe {
+  background-color: #f4f5f6;
+}
+
+.top-letter img {
+  width: 100%;
+  height: 100%;
+}
+.top-letter {
+  height: 170px;
+}
