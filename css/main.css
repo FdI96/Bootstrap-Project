@@ -8,15 +8,14 @@ body a {
   background-color: #f72210;
 }
 
-.navbar img {
-  height: 35px;
-}
 .nav-row {
   width: 100%;
 }
+
 .top-story-word {
   background-color: rgba(255,255,255,.9);
 }
+
 main {
   margin-top: 70px;
 }
@@ -55,6 +54,9 @@ main {
   width: 100%;
 }
 
+.editors-card img {
+  width: 100%;
+}
 .ts-about-it {
   font-size: 13px;
 }
@@ -103,8 +105,12 @@ main {
   position: relative;
   right: 80px;
   top: 20px;
+  width: 50%;
 }
 
+.left-sub {
+  width: 50%;
+}
 .inside-subscribe {
   background-color: #f4f5f6;
 }

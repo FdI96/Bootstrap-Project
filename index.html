@@ -16,7 +16,7 @@
 <body>
     <div class="navbar navbar-light fixed-top">
         <div class="container-fluid">
-            <div class="nav-row row justify-content-between">
+            <div class="nav-row row justify-content-between h-20">
                 <div class="weather-N-date d-none">
                     <div class="weather container"><a href="#"><img src="https://g.newsweek.com/img/weather/28.png"
                                 alt="cloud"><span>28° Corrientes, AR
@@ -24,7 +24,7 @@
                     </div>
                     <div class="date container"><span>Mon, Dec 14, 2020</span></div>
                 </div>
-                <div class="news-week col-6 align-item-center"><svg class="news-logo" version="1.1"
+                <div class="news-week pt-2 col-6 d-flex justify-content-start w-50"><svg class="news-logo px-0 w-50" version="1.1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60; fill: white;"
                         xml:space="preserve">
@@ -35,10 +35,11 @@
                         </g>
                     </svg>
                 </div>
-                <div class="icons col-6 d-flex flex-row justify-content-between">
-                    <img src="images/navbar/loginlogo.png" alt="">
-                    <button class="subscribe ps-3 pe-3 fw-bold">Subscribe &gt;</button>
-                    <img src="images/navbar/hamburger.png" alt="">
+                <div class="icons col-6 d-flex flex-row justify-content-end">
+                    <h4 class="pe-4 pt-1 d-none d-md-inline my-0 text-white fw-bold">LOGIN</h4>
+                    <img class="h-100 d-md-none" src="images/navbar/loginlogo.png" alt="">
+                    <button class="subscribe ps-3 pe-3 fw-bold">Subscribe&gt;</button>
+                    <img class="h-100" src="images/navbar/hamburger.png" alt="">
                 </div>
             </div>
         </div>
@@ -71,8 +72,8 @@
     <main class="big-wraper container-fluid">
         <!-- stories - top - debate sections for MOBILE-->
         <div class="big-row container-fluid">
-            <div class="row d-flex flex-column">
-                <div class="top-story col-12">
+            <div class="row d-flex d-md-none">
+                <div class="top-story col-12 col-md-6">
 
                     <div class="title">
                         <h6>TOP STORY</h6>
@@ -100,7 +101,7 @@
                     </div>
 
                 </div>
-                <div class="featured-stories col-12">
+                <div class="featured-stories col-12 col-md-6">
                     <div class="f-story pb-3">
                         <div class="title">
                             <h6>FEATURED STORIES</h6>
@@ -242,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="litle-form col-12 order-3">
+                <div class="litle-form d-flex justify-content-center col-12 order-3">
                     <div class="litle-form-inside px-3 pt-3 pb-3 mb-3 mx-5">
                         <div class="n-icon-text d-flex">
                             <span class=""><img src="images/Nlogo.png" alt="Nlogo"></span>
@@ -254,23 +255,23 @@
                         </form>
                     </div>
                 </div>
-                <div class="my-turn col-12 order-2">
+                <div class="my-turn col-12 order-2 col-md-6 row">
                     <div class="title">
                         MY TURN
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
                         <div class="my-turn-link py-3">
                             <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
                         </div>
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
                         <div class="my-turn-link py-3">
                             <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
                         </div>
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
                         <div class="my-turn-link py-3">
                             <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
@@ -279,7 +280,7 @@
                     <div class="title">
                         CULTURE & TRAVEL
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <div class="my-turn-card-img position-relative">
                             <a href="#">
                                 <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
@@ -290,7 +291,7 @@
                             <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
                         </div>
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <div class="my-turn-card-img position-relative">
                             <a href="#">
                                 <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
@@ -301,7 +302,7 @@
                             <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
                         </div>
                     </div>
-                    <div class="my-turn-card">
+                    <div class="my-turn-card col-md-4">
                         <div class="my-turn-card-img position-relative">
                             <a href="#">
                                 <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
@@ -315,7 +316,7 @@
 
 
                 </div>
-                <div class="more-stories col-12 order-1">
+                <div class="more-stories col-12 order-1 col-md-6 order-md-2">
                     <div class="title">
                         MORE STORIES
                     </div>
@@ -429,6 +430,368 @@
                     </div>
                 </div>
             </div>
+            <div class="row d-flex d-none d-sm-none d-md-flex w-md-50">
+                <div class="featured-stories col-12 col-md-6 col-lg-4">
+                    <div class="f-story pb-3">
+                        <div class="title">
+                            <h6>FEATURED STORIES</h6>
+                        </div>
+                        <img class="featured-stories-img" src="images/featuredstories.webp" alt="featured-stories">
+                        <h4 class="title-inside"><a class="fw-bold text-dark text-decoration-none" href="#">Bipartisan
+                                Stimulus
+                                Offers $25
+                                Billion Rent Assistance as
+                                Millions in Debt</a></h4>
+                        <div class="fs-about-it">
+                            <p class="mb-0">A new forecast from Moody's Analytics forecasts that almost 12 million
+                                Americans
+                                could face
+                                rent and utility debts.</p>
+                        </div>
+                        <h5 class="title-inside-litle border-bottom border-top border-1"><a
+                                class="fw-bold text-dark text-decoration-none" href="#">New Jobless Claims Jump
+                                to 1.4 Million as Congress
+                                Debates Stimulus Checks</a></h5>
+                    </div>
+                    <div class="f-story pb-3">
+                        <img class="featured-stories-img" src="images/featuredstories.webp" alt="featured-stories">
+                        <h4 class="title-inside"><a class=" fw-bold text-dark text-decoration-none" href="#">Bipartisan
+                                Stimulus Offers $25
+                                Billion Rent Assistance as
+                                Millions in Debt</a></h4>
+                        <div class="fs-about-it">
+                            <p class="mb-0">A new forecast from Moody's Analytics forecasts that almost 12 million
+                                Americans
+                                could face
+                                rent and utility debts.</p>
+                        </div>
+                        <h5 class="title-inside-litle"><a class=" fw-bold text-dark text-decoration-none" href="#">New
+                                Jobless Claims Jump
+                                to 1.4 Million as Congress
+                                Debates Stimulus Checks</a></h5>
+                    </div>
+                    <div class="f-story pb-3">
+                        <img class="featured-stories-img" src="images/featuredstories.webp" alt="featured-stories">
+                        <h4 class="title-inside"><a class=" fw-bold text-dark text-decoration-none" href="#">Bipartisan
+                                Stimulus Offers $25
+                                Billion Rent Assistance as
+                                Millions in Debt</a></h4>
+                        <div class="fs-about-it">
+                            <p class="mb-0">A new forecast from Moody's Analytics forecasts that almost 12 million
+                                Americans
+                                could face
+                                rent and utility debts.</p>
+                        </div>
+                    </div>
+                    <div class="f-story pb-3">
+                        <img class="featured-stories-img" src="images/featuredstories.webp" alt="featured-stories">
+                        <h4 class="title-inside"><a class="fw-bold text-dark text-decoration-none" href="#">Bipartisan
+                                Stimulus Offers $25
+                                Billion Rent Assistance as
+                                Millions in Debt</a></h4>
+                        <div class="fs-about-it">
+                            <p class="mb-0">A new forecast from Moody's Analytics forecasts that almost 12 million
+                                Americans
+                                could face
+                                rent and utility debts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="top-story col-md-12">
+
+                      <div class="title">
+                          <h6>TOP STORY</h6>
+                      </div>
+                      <div class="top-story-card-img position-relative">
+                          <a href="#">
+                              <img style="width: 100%;" src="images/topstory/topstoryimg.webp" alt="joebiden">
+                          </a>
+                          <div class="top-story-word position-absolute bottom-0 start-0 text-danger">U.S</div>
+                      </div>
+                      <h4 class="title-inside p-0"><a class="fw-bold text-dark text-decoration-none" href="#">Donal
+                              Trump Touts Morocco
+                              as Latest
+                              Arab
+                              Country to
+                              establish Israel Ties</a>
+                      </h4>
+                      <div class="ts-about-it">
+                          <p>
+                              "Another HISTORIC breakthrough today! Our two GREAT friends Israel and the Kingdom of
+                              Morocco have agreed to full diplomatic relations – a massive breakthrough for peace in
+                              the
+                              Middle East!" President Donald Trump tweeted.
+                          </p>
+                      </div>
+
+                  </div>
+                  <div class="my-turn  col-md-12 row">
+                      <div class="title">
+                          MY TURN
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <img src="images/myturn/joe-biden-rescue-dogs-major-delaware.jpg" alt="joebiden">
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+                      <div class="title">
+                          CULTURE & TRAVEL
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <div class="my-turn-card-img position-relative">
+                              <a href="#">
+                                  <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
+                              </a>
+                              <div class="my-turn-word position-absolute bottom-0 start-0">TRAVEL</div>
+                          </div>
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <div class="my-turn-card-img position-relative">
+                              <a href="#">
+                                  <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
+                              </a>
+                              <div class="my-turn-word position-absolute bottom-0 start-0">TRAVEL</div>
+                          </div>
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+                      <div class="my-turn-card col-md-4">
+                          <div class="my-turn-card-img position-relative">
+                              <a href="#">
+                                  <img src="images/myturn/suv-micro-rv.jpg" alt="joebiden">
+                              </a>
+                              <div class="my-turn-word position-absolute bottom-0 start-0">TRAVEL</div>
+                          </div>
+                          <div class="my-turn-link py-3">
+                              <a href="#">'Joe Biden Adopted The White House's First Rescue Dog From Us'</a>
+                          </div>
+                      </div>
+
+
+                  </div>
+                  <div class="more-stories col-md-12">
+                      <div class="title">
+                          MORE STORIES
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                      <div class="more-story-card py-3 border-bottom border-1">
+                          <img class="float-start me-3" src="images/morestories/republican-senator-david-perdue.jpg"
+                              alt="senator">
+                          <h6>
+                              <a href="#">Hacked Software Firm SolarWinds' Clients Include Ford, Microsoft, AT&T</a>
+                          </h6>
+                          SolarWinds says on its website its products are currently used by more than 300,000
+                          customers, spanning military, government, business giants and educational institutions.
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                  <div class="the-debate col-12">
+                      <div class="title">
+                          THE DEBATE
+                      </div>
+                      <div class="versus">
+                          <div class="guy-1 row border-top border-4 pt-3">
+                              <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                              <div class="col-9">
+                                  <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                                  <div><span>By</span> R.R. RENO</div>
+                              </div>
+                          </div>
+                          <div class="vs-img">
+                              <img src="images/thedebate/screen-vs.png" alt="vs">
+                          </div>
+                          <div class="guy-2 row border-bottom border-4 pb-3">
+                              <div class="col-9">
+                                  <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                                  <div><span>By</span> R.R. RENO</div>
+                              </div>
+                              <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          </div>
+                      </div>
+                      <div class="title pt-4">
+                          OPINION
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                      <div class="guy-1 row border-top border-4 pt-3 py-2">
+                          <img class="col-3" src="images/thedebate/rr-reno.png" alt="thisguy">
+                          <div class="col-9">
+                              <a href="#">Nationalism and Populism Are the GOP's Future</a>
+                              <div><span>By</span> R.R. RENO</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="litle-form d-flex justify-content-center col-12 order-3">
+                      <div class="litle-form-inside px-3 pt-3 pb-3 mb-3 mx-5">
+                          <div class="n-icon-text d-flex">
+                              <span class=""><img src="images/Nlogo.png" alt="Nlogo"></span>
+                              <h6 class="">Start your day with our top 5 articles</h6>
+                          </div>
+                          <form>
+                              <input type="email" class="e-input form-control" placeholder="Email address">
+                              <button type="submit" class="e-button">FREE SIGN UP &gt;</button>
+                          </form>
+                      </div>
+                  </div>
+                </div>
+            </div>
         </div>
         <div class="in-the-magazine row container-fluid">
             <div class="section-title text-center">
@@ -492,7 +855,7 @@
             <div class="section-title text-center">
                 <h5><span><img src="images/Nlogo.png" alt="Nlogo"></span>EDITOR'S PICK</h5>
             </div>
-            <div class="editors-card col-12">
+            <div class="editors-card col-12 container">
                 <div class="editors-pick-card-img position-relative">
                     <a href="#">
                         <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -654,8 +1017,8 @@
                     </p>
                     <form>
                         <div class="row">
-                            <input type="email" class="e-input form-control col" placeholder="Email address">
-                            <button type="submit" class="e-button col">FREE SIGN UP &gt;</button>
+                            <input type="email" class="e-input form-control col w-50" placeholder="Email address">
+                            <button type="submit" class="e-button col w-50">FREE SIGN UP &gt;</button>
                         </div>
                     </form>
                 </div>
