@@ -5,13 +5,20 @@ body a {
 }
 .navbar {
   height: 50px;
-  background-color: #f72210;
+  background-color: #F72210;
 }
-
 .nav-row {
   width: 100%;
 }
-
+.guy-2 img,
+.guy-1 img {
+  max-width: 70px;
+  max-height: 70px;
+}
+.login-logo {
+  font-size: 18px;
+  color: #d3d6d8;
+}
 .top-story-word {
   background-color: rgba(255,255,255,.9);
 }
@@ -19,25 +26,21 @@ body a {
 main {
   margin-top: 70px;
 }
-
 .news-week {
   font-size: x-large;
   color: white;
 }
-
 .news-logo {
   width: 132px;
   height: 20px;
 }
-
 .subscribe {
-  background-color: #ffe400;
+  background-color: #FFE400;
   border-radius: 24px;
   border: none;
   font-size: 13px;
   color: black;
   text-transform: uppercase;
-
 }
 .featured-stories-img {
   width: 100%;
@@ -49,11 +52,9 @@ main {
   background-size: cover;
   min-height: 189px;
 }
-
 .my-turn-card img {
   width: 100%;
 }
-
 .editors-card img {
   width: 100%;
 }
@@ -61,45 +62,53 @@ main {
   font-size: 13px;
 }
 
+/* THIS SELECTOR IS FOR THE VS SECTION IN THE MD & LG SECTION */
+.vs-part::before {
+  top: calc(50% - 2px);
+}
+.vs-part::after {
+  top: 50%;
+}
+.vs-part {
+  height: 0;
+}
+.vs-part h5 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  bottom: 14px;
+}
 .vs-img img {
   width: 100%;
+  height: 32px;
 }
-
 .my-turn-word {
-  background-color: #c2d4d7;
+  background-color: #C2D4D7;
 }
-
 .litle-form {
   height: 170px;
 }
-
 .litle-form-inside {
-  background-color: #f4f5f6;
+  background-color: #F4F5F6;
   width: 300px;
   height: 150px;
 }
-
 .e-button {
-  background-color: #f61602;
+  background-color: #F61602;
   width: 100%;
 }
-
 .alzheimer-card-img img {
   width: 100%;
 }
-
 .in-the-magazine-card img {
   width: 100%;
 }
-
 .smallest-text {
   font-size: 12px;
 }
-
 .editors-pick-word {
   background-color: rgba(255,255,255,.9);
 }
-
 .right-sub {
   z-index: 5;
   position: relative;
@@ -107,14 +116,12 @@ main {
   top: 20px;
   width: 50%;
 }
-
 .left-sub {
   width: 50%;
 }
 .inside-subscribe {
-  background-color: #f4f5f6;
+  background-color: #F4F5F6;
 }
-
 .top-letter img {
   width: 100%;
   height: 100%;
