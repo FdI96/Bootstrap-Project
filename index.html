@@ -17,14 +17,16 @@
     <div class="navbar navbar-light fixed-top">
         <div class="container-fluid">
             <div class="nav-row row justify-content-between h-20">
-                <div class="weather-N-date d-none">
+                <div class="weather-N-date d-none d-lg-inline-block col-lg text-white">
                     <div class="weather container"><a href="#"><img src="https://g.newsweek.com/img/weather/28.png"
-                                alt="cloud"><span>28° Corrientes, AR
+                                alt="cloud"><span class="text-white">28° Corrientes, AR
                                 &gt;</span></a>
                     </div>
                     <div class="date container"><span>Mon, Dec 14, 2020</span></div>
                 </div>
-                <div class="news-week pt-2 col-6 d-flex justify-content-start w-50"><svg class="news-logo px-0 w-50"
+                <div class="news-week pt-2 col-lg col-6 d-flex justify-content-start justify-content-lg-center align-items-lg-center w-50 w-lg-100">
+                  <img class="d-none d-lg-inline" src="images/nav-big-logo.png" alt="">
+                  <svg class="d-lg-none news-logo px-0 w-50 h-lg-100"
                         version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                         x="0px" y="0px" viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60; fill: white;"
                         xml:space="preserve">
@@ -35,16 +37,17 @@
                         </g>
                     </svg>
                 </div>
-                <div class="icons col-6 d-flex flex-row justify-content-end">
-                    <h4 class="pe-4 pt-1 d-none d-md-inline my-0 text-white fw-bold">LOGIN</h4>
+                <div class="icons col-lg col-6 d-flex flex-row justify-content-end">
+                    <h4 class="align-self-lg-end pe-4 pt-1 d-none d-md-inline my-0 text-white fw-bold">LOGIN</h4>
                     <i class="login-logo fa fa-user pt-2 pe-2 h-100 d-md-none"></i>
-                    <button class="subscribe ps-3 pe-3 fw-bold">Subscribe&gt;</button>
-                    <img class="h-100" src="images/navbar/hamburger.png" alt="">
+                    <button class="subscribe ps-3 pe-3 fw-bold align-self-lg-end">SUBSCRIBE&gt;</button>
+                    <img class="h-100 d-lg-none" src="images/navbar/hamburger.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="list-container d-none">
-            <ul class="list-inline">
+        <div class="w-100 container-nav-white">
+        <div class="list-container d-none d-lg-flex bg-white w-100 mt-1 border-bottom border-2 align-items-center py-3 px-3">
+            <ul class="list-inline mb-0">
                 <li class="list-inline-item">U.s</li>
                 <li class="list-inline-item">World</li>
                 <li class="list-inline-item">Business</li>
@@ -56,10 +59,12 @@
                 <li class="list-inline-item">The debate</li>
                 <li class="list-inline-item">Vantage</li>
                 <li class="list-inline-item">Weather</li>
+                <input type="text" placeholder="Search" class="input-nav border border-0">
+                <i class="fas fa-search"></i>
             </ul>
         </div>
-        <div class="trendig-bar d-none">
-            <ul class="list-inline">
+        <div class="trendig-bar d-none d-lg-flex bg-white w-100 border-bottom border-2 py-2 px-5">
+            <ul class="list-inline mb-0">
                 <li class="list-inline-item">U.s</li>
                 <li class="list-inline-item">World</li>
                 <li class="list-inline-item">Business</li>
@@ -67,6 +72,7 @@
                 <li class="list-inline-item">Culture</li>
                 <li class="list-inline-item">Newsgeek</li>
             </ul>
+        </div>
         </div>
     </div>
     <main class="big-wraper container-fluid">
@@ -821,44 +827,44 @@
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
             <div class="in-the-magazine-card col-12 col-md-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
-                    <span class="bg-danger text-white">COVER</span><span class="bg-white text-danger">HEALTH</span>
+                    <span class="bg-danger text-white h5">COVER</span><span class="bg-white text-danger h5">HEALTH</span>
                 </div>
-                <h6>Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
+                <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
         </div>
         <div class="editors-pick row container-fluid">
@@ -866,7 +872,7 @@
                 <h5><span><img src="images/Nlogo.png" alt="Nlogo"></span>EDITOR'S PICK</h5>
             </div>
             <div class="editors-card-container col-12 row container">
-                <div class="editors-card col-12 col-md-6 h-md-25 container">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25 container">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -875,14 +881,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -891,14 +897,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -907,14 +913,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -923,14 +929,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -939,14 +945,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -955,14 +961,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -971,14 +977,14 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -987,7 +993,7 @@
                         <div class="editors-pick-word position-absolute bottom-0 start-0 text-danger">NEWS</div>
                     </div>
                     <div>
-                        <h6><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
+                        <h6 class="h3"><a>Florida COVID Cases Skyrocket Two Weeks After Thanksgiving</a></h6>
                     </div>
                     <div class="smallest-text">The state's current COVID-19 hospitalizations have been rising sharply
                         since
@@ -996,53 +1002,55 @@
                 </div>
             </div>
         </div>
-        <div class="subscribe-section container">
-            <div class="sub-title text-start text-danger">
-                <h6>Subscribe</h6>
-            </div>
-            <div class="inside-subscribe p-4 d-md-flex flex-row">
-                <div class="subscribe-top container d-flex justify-content-center position-relative">
-                    <div class="left-sub">
-                        <img src="images/subscribe/left.jpg" alt="left">
-                    </div>
-                    <div class="right-sub">
-                        <img src="images/subscribe/right.jpg" alt="right">
-                    </div>
-                </div>
-                <div class="subscribe-bottom text-center text-md-start">
-                    <h6 class="mt-4">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
-                    <p>All Access + Weekly Delivery
-                        </br>
-                        Choose A Membership That's Perfect for You!
-                    </p>
-                    <button class="text-white bg-danger border-0 rounded">Subscribe &gt;</button>
-                </div>
-            </div>
-        </div>
-        <div class="newsletter">
-            <div class="letter-title text-start text-danger">
-                <h6>Newsletter</h6>
-            </div>
-            <div class="inside-letter container-fluid p-4 d-md-flex flex-row">
-                <div class="letter-top">
-                    <div class="top-letter pe-md-4">
-                        <img src="images/newletter/starting5-homepage.png" alt="phone">
-                    </div>
-                </div>
-                <div class="letter-bottom text-center">
-                    <h3 class="">THE STARTING 5</h3>
-                    <p>See why nearly a quarter of a million subscriber begin
-                        </br>
-                        their day with the Starting 5
-                    </p>
-                    <form>
-                        <div class="row">
-                            <input type="email" class="e-input form-control col w-50" placeholder="Email address">
-                            <button type="submit" class="e-button col w-50">FREE SIGN UP &gt;</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class=" subscribe-newsletter row ">
+          <div class="subscribe-section container col-12 col-md-12 col-lg-8">
+              <div class="sub-title text-start text-danger">
+                  <h6>Subscribe</h6>
+              </div>
+              <div class="inside-subscribe p-4 d-md-flex flex-row">
+                  <div class="subscribe-top container d-flex justify-content-center position-relative">
+                      <div class="left-sub">
+                          <img src="images/subscribe/left.jpg" alt="left">
+                      </div>
+                      <div class="right-sub">
+                          <img src="images/subscribe/right.jpg" alt="right">
+                      </div>
+                  </div>
+                  <div class="subscribe-bottom text-center text-md-start">
+                      <h6 class="mt-4">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
+                      <p>All Access + Weekly Delivery
+                          </br>
+                          Choose A Membership That's Perfect for You!
+                      </p>
+                      <button class="text-white bg-danger border-0 rounded">Subscribe &gt;</button>
+                  </div>
+              </div>
+          </div>
+          <div class="newsletter col-12 col-md-12 col-lg-4">
+              <div class="letter-title text-start text-danger">
+                  <h6>Newsletter</h6>
+              </div>
+              <div class="inside-letter container-fluid p-4 d-md-flex flex-row">
+                  <div class="letter-top">
+                      <div class="top-letter pe-md-4">
+                          <img src="images/newletter/starting5-homepage.png" alt="phone">
+                      </div>
+                  </div>
+                  <div class="letter-bottom text-center">
+                      <h3 class="">THE STARTING 5</h3>
+                      <p>See why nearly a quarter of a million subscriber begin
+                          </br>
+                          their day with the Starting 5
+                      </p>
+                      <form>
+                          <div class="row">
+                              <input type="email" class="e-input form-control col w-50" placeholder="Email address">
+                              <button type="submit" class="e-button col w-50">FREE SIGN UP &gt;</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
         </div>
     </main>
     <footer class="container-fluid row">
@@ -1059,14 +1067,14 @@
             <p class="align-self-md-end mb-md-0" style="font-size: 12px;">© 2020 NEWSWEEK DIGITAL LLC</p>
         </div>
         <div
-            class="foot-mid mb-3 align-self-md-end mb-md-0 border-bottom border-1 col-md-4 d-md-flex justify-content-end">
+            class="foot-mid mb-3 align-self-md-end mb-md-0 col-md-4 d-md-flex justify-content-end">
             <i class="fs-1 pe-md-2 fab fa-facebook-square"></i>
             <i class="fs-1 pe-md-2 fab fa-twitter"></i>
             <i class="fs-1 pe-md-2 fab fa-instagram-square"></i>
             <i class="fs-1 pe-md-2 fab fa-tumblr"></i>
             <i class="fs-1 pe-md-2 fab fa-linkedin-in"></i>
         </div>
-        <div class="foot-bot col-md-12">
+        <div class="foot-bot col-md-12 border-top border-1">
             <div class="editions">
                 <span>Edition:</span>
                 <ul class="list-inline">
