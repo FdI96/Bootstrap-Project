@@ -45,11 +45,11 @@ main {
 
 @media all and (min-width: 992px) {
   main {
-    margin-top: 200px;
+    margin-top: 205px;
   }
 
   .navbar {
-    height: 100px;
+    height: 110px;
     background-color: #f72210;
   }
 
