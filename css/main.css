@@ -53,14 +53,15 @@ main {
 
 .e-button,
 .e-input {
-    width: 50%;
-  }
+  width: 50%;
+}
 
 @media all and (min-width: 768px) {
   .img-wrapper {
     height: 380px;
   }
 }
+
 @media all and (min-width: 992px) {
   main {
     margin-top: 220px;
@@ -84,7 +85,7 @@ main {
   h6 {
     font-size: 40px;
   }
-   
+
   .e-button,
   .e-input {
     width: 100%;
