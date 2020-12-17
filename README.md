@@ -1,15 +1,15 @@
-# New-York-Times-Article-clone-
+# NewsWeek-Site-clone-
 
-**This Page is a clone of a the New York Times article**
+**This Page is a clone of a NewsWeek site**
 
 # Getting started :
+
 this webpage can be viewed better on the screen size of 1920 X 1080 in Google Chrome browser.
 you can also download the repo and open the "index.html" file with Mozilla Firefox or Google Chrome.
 
-![screenshot](images/YorkTimes.png)
+![screenshot](images/Newsweek.png)
 
-The purpose of this project is to create a similar looking webpage like the New York Times Article webpage, using pure HTML & CSS.
-
+The purpose of this project is to create a similar looking webpage like the NewsWeek webpage, using HTML, CSS and BootStrap.
 
 To visit the page go to the [Live Demo Link](https://fdi96.github.io/Bootstrap-Project/)
 
@@ -28,7 +28,7 @@ To visit the page go to the [Live Demo Link](https://fdi96.github.io/Bootstrap-P
 
 [Live Demo Link](https://fdi96.github.io/Bootstrap-Project/)
 
-##  AUTHORS
+## AUTHORS
 
 👤 **Widzmarc Jean Nesly Phelle**
 
@@ -55,3 +55,5 @@ Feel free to check the issues page. Show your support
 Give a ⭐️ if you like this project!
 
 ## 📝 Licensed MIT
+
+This project is ![MIT](https://github.com/FdI96/Bootstrap-Project/blob/Development/LICENSE) licensed.
