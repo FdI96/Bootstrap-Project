@@ -1,9 +1,9 @@
-::-webkit-scrollbar {
+.overflow-scroll::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
 
-::-moz-scrollbar {
+.overflow-scroll::-moz-scrollbar {
   width: 0;
   background: transparent;
 }
@@ -43,9 +43,25 @@ main {
   margin-top: 70px;
 }
 
+.e-button,
+.e-input {
+    width: 50%;
+  }
+
+@media all and (min-width: 768px) {
+  .img-wrapper { 
+    height: 380px;
+  }
+}
 @media all and (min-width: 992px) {
   main {
-    margin-top: 205px;
+    margin-top: 220px;
+  }
+
+  .container-nav-white {
+    margin-top: 105px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .navbar {
@@ -59,6 +75,11 @@ main {
 
   h6 {
     font-size: 40px;
+  }
+ 
+  .e-button,
+  .e-input {
+    width: 100%;
   }
 }
 

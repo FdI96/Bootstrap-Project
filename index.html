@@ -13,8 +13,8 @@
     <title>NewsWeek</title>
 </head>
 
-<body>
-    <div class="navbar navbar-light fixed-top">
+<body class="container">
+    <div class="navbar container navbar-light fixed-top">
         <div class="container-fluid">
             <div class="nav-row row justify-content-between h-20">
                 <div class="weather-N-date d-none d-lg-inline-block col-lg text-white mt-2">
@@ -45,36 +45,36 @@
                 </div>
             </div>
         </div>
-        <div class="w-100 container-nav-white">
-            <div
-                class="list-container d-none d-lg-flex bg-white w-100 mt-1 border-bottom border-2 align-items-center py-3 px-3">
-                <ul class="list-inline mb-0 d-flex justify-content-around w-100 pe-5 me-5">
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">U.S.</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">World</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Business</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Tech & Science</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Culture</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Newsgeek</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Sports</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Healt</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">The debate</li>
-                    <li class="list-inline-item border-end border-2 pe-2 fw-bold h5">Vantage</li>
-                    <li class="list-inline-item pe-2 fw-bold h5">Weather</li>
-                    <li class="list-inline-item"><input type="text" placeholder="Search"
-                            class="input-nav border border-0"></li>
-                    <li class="list-inline-item"><i class="fas fa-search"></i></li>
-                </ul>
-            </div>
-            <div class="trendig-bar d-none d-lg-flex bg-white w-100 border-bottom border-2 py-2 px-5">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item pe-2 fw-bold h5 ">U.s</li>
-                    <li class="list-inline-item pe-2 fw-bold h5 text-secondary">World</li>
-                    <li class="list-inline-item pe-2 fw-bold h5 text-secondary">Business</li>
-                    <li class="list-inline-item pe-2 fw-bold h5 text-secondary">Tech & Science</li>
-                    <li class="list-inline-item pe-2 fw-bold h5 text-secondary">Culture</li>
-                    <li class="list-inline-item pe-2 fw-bold h5 text-secondary">Newsgeek</li>
-                </ul>
-            </div>
+    </div>
+    <div class="container-nav-white w-100 container fixed-top">
+        <div
+            class="list-container d-none d-lg-flex bg-white w-100 mt-1 border-bottom border-2 align-items-center py-3 px-3">
+            <ul class="list-inline mb-0 d-flex justify-content-start flex-wrap w-100">
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">U.S.</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">World</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Business</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Tech & Science</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Culture</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Newsgeek</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Sports</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Healt</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">The debate</li>
+                <li class="list-inline-item border-end border-2 pe-1 fw-bold h6">Vantage</li>
+                <li class="list-inline-item pe-1 fw-bold h6">Weather</li>
+                <li class="list-inline-item"><input type="text" placeholder="Search" class="input-nav border border-0">
+                </li>
+                <li class="list-inline-item"><i class="fas fa-search"></i></li>
+            </ul>
+        </div>
+        <div class="trendig-bar d-none d-lg-flex bg-white w-100 border-bottom border-2 py-2 px-5">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item pe-2 fw-bold h6 ">U.s</li>
+                <li class="list-inline-item pe-2 fw-bold h6 text-secondary">World</li>
+                <li class="list-inline-item pe-2 fw-bold h6 text-secondary">Business</li>
+                <li class="list-inline-item pe-2 fw-bold h6 text-secondary">Tech & Science</li>
+                <li class="list-inline-item pe-2 fw-bold h6 text-secondary">Culture</li>
+                <li class="list-inline-item pe-2 fw-bold h6 text-secondary">Newsgeek</li>
+            </ul>
         </div>
     </div>
     <main class="big-wraper container-fluid">
@@ -808,14 +808,14 @@
                 </div>
             </div>
         </div>
-        <div class="in-the-magazine row container-fluid d-flex flex-wrap">
+        <div class="in-the-magazine row container-fluid d-flex my-5">
             <div class="section-title text-center">
                 <h5><span><img src="images/Nlogo.png" alt="Nlogo"></span> IN THE MAGAZINE</h5>
             </div>
-            <div class="wrapper col-md-3">
+            <div class="wrapper col-md-3 d-flex flex-column mb-3">
                 <div class="alzheimer-card-img col-12 col-md-3 w-100 h-70 position-relative">
                     <a href="#">
-                        <img src="images/inthemagazine/cover-december-18-2020.jpg" alt="alzheimer">
+                        <img class="img-wrapper" src="images/inthemagazine/cover-december-18-2020.jpg" alt="alzheimer">
                     </a>
                     <div class="alzheimer-word position-absolute bottom-0 start-0">
                         <h6 class="text-danger">DECEMBER 18 ISSUE</h6>
@@ -826,7 +826,7 @@
                     <h6 class="text-center">SEE ALL FEATURES &gt;</h6>
                 </div>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -834,7 +834,7 @@
                 </div>
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -842,7 +842,7 @@
                 </div>
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -850,7 +850,7 @@
                 </div>
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -858,7 +858,7 @@
                 </div>
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -866,7 +866,7 @@
                 </div>
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
-            <div class="in-the-magazine-card col-12 col-md-3">
+            <div class="in-the-magazine-card col-12 col-md-3 mb-3">
                 <img src="images/inthemagazine/fe-alzheimers-banner.jpg" alt="brain">
                 <div>
                     <span class="bg-danger text-white h5">COVER</span><span
@@ -875,12 +875,12 @@
                 <h6 class="h3">Woman, 73, Who Should've Gotten Alzheimer's, Dind't-Renewing Hope for Cure</h6>
             </div>
         </div>
-        <div class="editors-pick row container-fluid">
+        <div class="editors-pick row container-fluid my-5">
             <div class="section-title text-center">
                 <h5><span><img src="images/Nlogo.png" alt="Nlogo"></span>EDITOR'S PICK</h5>
             </div>
             <div class="editors-card-container col-12 row container">
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25 container">
+                <div class="editors-card col-12 col-md-6 col-lg-3 container mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -896,7 +896,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -912,7 +912,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -928,7 +928,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -944,7 +944,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -960,7 +960,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -976,7 +976,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -992,7 +992,7 @@
                         later
                         October</div>
                 </div>
-                <div class="editors-card col-12 col-md-6 col-lg-3 h-md-25">
+                <div class="editors-card col-12 col-md-6 col-lg-3 mb-3">
                     <div class="editors-pick-card-img position-relative">
                         <a href="#">
                             <img src="images/editorspick/covid-19-testing-site-miami-florida-november-2020.jpg"
@@ -1014,7 +1014,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">U.S</h3>
             </div>
-            <div class="US-row row">
+            <div class="US-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1055,7 +1055,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">World</h3>
             </div>
-            <div class="world-row row">
+            <div class="world-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1096,7 +1096,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">Business</h3>
             </div>
-            <div class="business-row row">
+            <div class="business-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1137,7 +1137,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">Tech & Science</h3>
             </div>
-            <div class="t&s-row row">
+            <div class="t&s-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1178,7 +1178,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">Culture</h3>
             </div>
-            <div class="culture-row row">
+            <div class="culture-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1219,7 +1219,7 @@
             <div class="title pt-3 text-danger border-top border-3">
                 <h3 class="text-danger">Sport</h3>
             </div>
-            <div class="sport-row row">
+            <div class="sport-row row mb-4">
                 <div class="column-card col-12 col-md-4">
                     <img class="w-100" src="images/varietynews/mitch-mcconnell-briefing-press.webp" alt="picture">
                     <h4>
@@ -1288,7 +1288,7 @@
                 </div>
                 <div class="inside-letter container-fluid p-4 d-md-flex flex-row">
                     <div class="letter-top">
-                        <div class="top-letter pe-md-4">
+                        <div class="top-letter h-100 pe-md-4">
                             <img src="images/newletter/starting5-homepage.png" alt="phone">
                         </div>
                     </div>
@@ -1299,9 +1299,11 @@
                             their day with the Starting 5
                         </p>
                         <form>
-                            <div class="row">
-                                <input type="email" class="e-input form-control col w-50" placeholder="Email address">
-                                <button type="submit" class="e-button col w-50">FREE SIGN UP &gt;</button>
+                            <div class="eI-eB row d-lg-flex flex-lg-column">
+                                <input type="email" class="e-input form-control col col-lg-12"
+                                    placeholder="Email address">
+                                <button type="submit" class="e-button col col-lg-12 text-white">FREE SIGN UP
+                                    &gt;</button>
                             </div>
                         </form>
                     </div>
@@ -1331,8 +1333,8 @@
         </div>
         <div class="foot-bot col-md-12 border-top border-1">
             <div class="editions">
-                <span>Edition:</span>
                 <ul class="list-inline">
+                    <li class="list-inline-item fw-bold">Edition:</li>
                     <li class="list-inline-item">U.S Edition</li>
                     <li class="list-inline-item">Pakistan</li>
                     <li class="list-inline-item">日本</li>
@@ -1340,17 +1342,17 @@
                     <li class="list-inline-item">Polska</li>
                 </ul>
                 <ul class="list-inline">
-                    <li class="list-inline-item">About Us</li>
-                    <li class="list-inline-item">Corrections</li>
-                    <li class="list-inline-item">Contact Us</li>
-                    <li class="list-inline-item">Editorial Guidelines</li>
-                    <li class="list-inline-item">Advertise</li>
-                    <li class="list-inline-item">Copyright</li>
-                    <li class="list-inline-item">Terms and Condition</li>
-                    <li class="list-inline-item">Cookie Policy</li>
-                    <li class="list-inline-item">Terms of Sale</li>
-                    <li class="list-inline-item">Archive</li>
-                    <li class="list-inline-item">Announcements</li>
+                    <li class="list-inline-item border-end border-2 pe-2">About Us</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Corrections</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Contact Us</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Editorial Guidelines</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Advertise</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Copyright</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Terms and Condition</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Cookie Policy</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Terms of Sale</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Archive</li>
+                    <li class="list-inline-item border-end border-2 pe-2">Announcements</li>
                 </ul>
             </div>
 
