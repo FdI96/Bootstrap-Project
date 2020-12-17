@@ -24,6 +24,10 @@ body a {
   z-index: 10;
 }
 
+.top-story-card-img img {
+  width: 100%;
+}
+
 .copyright-text {
   font-size: 12px;
 }
