@@ -42,6 +42,11 @@ body a {
   max-height: 70px;
 }
 
+.news-week img {
+  height: 30px;
+  width: 120px;
+}
+
 .login-logo {
   font-size: 18px;
   color: #d3d6d8;
@@ -60,57 +65,8 @@ main {
   width: 50%;
 }
 
-@media all and (min-width: 768px) {
-  .img-wrapper {
-    height: 380px;
-  }
-
-  .guy-2 img,
-  .guy-1 img {
-    max-width: 80px;
-    max-height: 80px;
-  }
-
-}
-
-@media all and (min-width: 992px) {
-  main {
-    margin-top: 220px;
-  }
-
-  .container-nav-white {
-    margin-top: 105px;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  .navbar {
-    height: 110px;
-    background-color: #f72210;
-  }
-
-  .subscribe {
-    height: 30px;
-  }
-
-  h6 {
-    font-size: 40px;
-  }
-
-  .e-button,
-  .e-input {
-    width: 100%;
-    color: white;
-    text-decoration: none;
-  }
-}
-
 .letter-bottom p {
   font-size: 14.5px;
-}
-.news-week img {
-  height: 30px;
-  width: 120px;
 }
 
 .news-logo {
@@ -245,4 +201,59 @@ main {
 
 .container-nav-white {
   height: 100px;
+}
+
+@media all and (min-width: 768px) {
+  .img-wrapper {
+    height: 380px;
+  }
+
+  .guy-2 img,
+  .guy-1 img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+  main {
+    margin-top: 220px;
+  }
+
+  .container-nav-white {
+    margin-top: 105px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar {
+    height: 110px;
+    background-color: #f72210;
+  }
+
+  .subscribe {
+    height: 30px;
+  }
+
+  h6 {
+    font-size: 40px;
+  }
+
+  .e-button,
+  .e-input {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .news-week img {
+    height: 80px;
+    width: 300px;
+  }
+
+  .weather-N-date {
+    position: relative;
+    top: 20px;
+  }
 }
