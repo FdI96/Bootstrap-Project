@@ -64,6 +64,13 @@ main {
   .img-wrapper {
     height: 380px;
   }
+
+  .guy-2 img,
+  .guy-1 img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
 }
 
 @media all and (min-width: 992px) {
@@ -93,12 +100,17 @@ main {
   .e-button,
   .e-input {
     width: 100%;
+    color: white;
+    text-decoration: none;
   }
 }
 
-.news-week {
-  font-size: x-large;
-  color: white;
+.letter-bottom p {
+  font-size: 14.5px;
+}
+.news-week img {
+  height: 30px;
+  width: 120px;
 }
 
 .news-logo {
@@ -171,6 +183,11 @@ main {
   height: 150px;
 }
 
+.icons {
+  position: relative;
+  left: 30px;
+  margin-bottom: 10px;
+}
 .e-button {
   background-color: #f61602;
   width: 100%;
