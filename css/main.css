@@ -144,6 +144,7 @@ main {
   left: 30px;
   margin-bottom: 10px;
 }
+
 .e-button {
   background-color: #f61602;
   width: 100%;
@@ -213,7 +214,6 @@ main {
     max-width: 80px;
     max-height: 80px;
   }
-
 }
 
 @media all and (min-width: 992px) {
