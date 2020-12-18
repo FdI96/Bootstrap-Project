@@ -248,12 +248,7 @@ main {
   }
 
   .news-week img {
-    height: 80px;
-    width: 300px;
-  }
-
-  .weather-N-date {
-    position: relative;
-    top: 20px;
+    height: 60px;
+    width: 400px;
   }
 }
